@@ -12,11 +12,7 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc channel 封装类
- **/
+
 @Builder
 @Data
 public class MqttChannel {
@@ -30,23 +26,23 @@ public class MqttChannel {
     private boolean isWill;
 
 
-    private volatile SubStatus subStatus; // 是否订阅过主题
+    private volatile SubStatus subStatus;
 
 
     private Set<String> topic  ;
 
 
 
-    private volatile SessionStatus sessionStatus;  // 在线 - 离线
+    private volatile SessionStatus sessionStatus;
 
 
 
-    private volatile boolean cleanSession; // 当为 true 时 channel close 时 从缓存中删除  此channel
+    private volatile boolean cleanSession;
 
 
 
 
-    private ConcurrentHashMap<Integer,SendMqttMessage> message ; // messageId - message(qos1)  // 待确认消息
+    private ConcurrentHashMap<Integer,SendMqttMessage> message ; // messageId - message(qos1)  //
 
 
     private Set<Integer>  receive;
@@ -79,10 +75,6 @@ public class MqttChannel {
     }
 
 
-    /**
-     * 判断当前channel 是否登录过
-     * @return
-     */
     public boolean isLogin(){
         return Optional.ofNullable(this.channel).map(channel1 -> {
             AttributeKey<Boolean> _login = AttributeKey.valueOf("login");
@@ -90,17 +82,11 @@ public class MqttChannel {
         }).orElse(false);
     }
 
-    /**
-     * 非正常关闭
-     */
+
     public void close(){
         Optional.ofNullable(this.channel).ifPresent(channel1 -> channel1.close());
     }
 
-    /**
-     *  通道是否活跃
-     * @return
-     */
     public  boolean isActive(){
         return  channel!=null&&this.channel.isActive();
     }

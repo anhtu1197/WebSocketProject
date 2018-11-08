@@ -1,0 +1,132 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "name": "netty",
+      "type": "com.myself.nettychat.common.properties.InitNetty"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": 0,
+      "name": "netty.backlog",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": 0,
+      "name": "netty.boss-thread",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": 0,
+      "name": "netty.heart",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": 0,
+      "name": "netty.inital-delay",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "name": "netty.jks-certificate-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "name": "netty.jks-file",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "name": "netty.jks-store-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": false,
+      "name": "netty.keepalive",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "name": "netty.mqtt-hander",
+      "type": "java.lang.Class<com.myself.nettychat.common.mqtts.MqttHander>"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": 0,
+      "name": "netty.mqttport",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": false,
+      "name": "netty.nodelay",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": 0,
+      "name": "netty.period",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "name": "netty.protocol",
+      "type": "com.myself.nettychat.common.enums.ProtocolEnum"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": false,
+      "name": "netty.reuseaddr",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": 0,
+      "name": "netty.revbuf",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "name": "netty.server-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": 0,
+      "name": "netty.sndbuf",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": false,
+      "name": "netty.ssl",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": 0,
+      "name": "netty.tcpport",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": 0,
+      "name": "netty.webport",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.myself.nettychat.common.properties.InitNetty",
+      "defaultValue": 0,
+      "name": "netty.worker-thread",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

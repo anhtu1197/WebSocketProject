@@ -11,9 +11,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
-@EnableScheduling //定时任务支持
-@EnableAspectJAutoProxy //注解开启对aspectJ的支持
-@EnableSwagger2 //Swagger自动生成文档
+@EnableScheduling
+@EnableAspectJAutoProxy
+@EnableSwagger2
 public class NettychatApplication {
 
 	public static void main(String[] args) throws Exception{
@@ -26,7 +26,7 @@ public class NettychatApplication {
 			@Override
 			public void run() {
 				try {
-					System.out.println("Web端Netty通信服务端启动成功！端口：8090");
+					System.out.println("WebNetty：8090");
 					tcpServer.startWeb();
 				}catch (Exception e){
 					e.printStackTrace();
@@ -37,7 +37,7 @@ public class NettychatApplication {
 			@Override
 			public void run() {
 				try {
-					System.out.println("TCP端Netty通信服务端启动成功！端口：8092");
+					System.out.println("TCPNetty！：8092");
 					tcpServer.startTcp();
 				}catch (Exception e){
 					e.printStackTrace();

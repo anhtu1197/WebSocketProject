@@ -18,12 +18,7 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 15:59 2018\9\5 0005
- */
+
 @Controller
 @RequestMapping("/su")
 public class NcChangeController {
@@ -31,11 +26,7 @@ public class NcChangeController {
     @Autowired
     private UserService userService;
 
-    /**
-     * 我的中心界面
-     * @param map
-     * @return
-     */
+
     @GetMapping("/me")
     public ModelAndView Me(Map<String,Object> map){
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
@@ -55,31 +46,19 @@ public class NcChangeController {
         return new ModelAndView(H5Constant.ME,map);
     }
 
-    /**
-     * 发现
-     * @param map
-     * @return
-     */
+
     @GetMapping("/find")
     public ModelAndView find(Map<String,Object> map){
         return new ModelAndView(H5Constant.FIND);
     }
 
-    /**
-     * 聊天
-     * @param map
-     * @return
-     */
+
     @GetMapping("/chat")
     public ModelAndView chat(Map<String,Object> map){
         return new ModelAndView(H5Constant.CHAT);
     }
 
-    /**
-     * 主页
-     * @param map
-     * @return
-     */
+
     @GetMapping("/home")
     public ModelAndView home(Map<String,Object> map){
         return new ModelAndView(H5Constant.HOME);

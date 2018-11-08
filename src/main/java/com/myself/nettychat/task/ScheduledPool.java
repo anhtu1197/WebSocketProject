@@ -7,11 +7,7 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.*;
 
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 定时任务
- **/
+
 @Service
 public class ScheduledPool implements Scheduled {
 

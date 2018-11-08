@@ -7,12 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 11:46 2018\8\14 0014
- */
+
 @Component
 public class LikeRedisTemplate {
 
@@ -20,7 +15,6 @@ public class LikeRedisTemplate {
 
     private Map<Object,Object> SecondRedisMap = new ConcurrentHashMap<>();
 
-    /**存放链接池实例*/
     private Map<Object,Object> ChannelRedisMap = new ConcurrentHashMap<>();
 
     public void save(Object id,Object name){
@@ -28,45 +22,26 @@ public class LikeRedisTemplate {
         SecondRedisMap.put(name,id);
     }
 
-    /**
-     * 存储对应的用户名与Netty链接实例
-     * @param name 登录用户名
-     * @param channel Netty链接实例
-     */
+
     public void saveChannel(Object name,Object channel){
         ChannelRedisMap.put(name,channel);
     }
 
-    /**
-     * 删除存储池实例
-     * @param name 登录用户名
-     */
     public void deleteChannel(Object name){
         ChannelRedisMap.remove(name);
     }
 
-    /**
-     * 获取存储池中的链接实例
-     * @param name 登录用户名
-     * @return {@link io.netty.channel.Channel 链接实例}
-     */
+
     public Object getChannel(Object name){
         return ChannelRedisMap.get(name);
     }
 
-    /**
-     * 获取储存池链接数
-     * @return 在线数
-     */
+
     public Integer getSize(){
         return ChannelRedisMap.size();
     }
 
-    /**
-     * 获取连接对应用户名称
-     * @param id 连接Id
-     * @return 用户名称
-     */
+
     public Object getName(Object id){
         return RedisMap.get(id);
     }
@@ -92,10 +67,7 @@ public class LikeRedisTemplate {
         }
     }
 
-    /**
-     * 返回在线用户列表信息
-     * @return 用户名列表
-     */
+
     public Object getOnline() {
         List<Object> result = new ArrayList<>();
         for (Object key:ChannelRedisMap.keySet()){

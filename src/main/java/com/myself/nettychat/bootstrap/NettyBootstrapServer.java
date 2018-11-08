@@ -21,11 +21,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc mtqq netty启动服务类
- **/
+
 @Slf4j
 @Data
 public class NettyBootstrapServer extends AbstractBootstrapServer {

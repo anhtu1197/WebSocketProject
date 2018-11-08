@@ -10,12 +10,7 @@ import javax.persistence.Id;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 14:03 2018\8\14 0014
- */
+
 @Data
 @Entity
 @DynamicUpdate

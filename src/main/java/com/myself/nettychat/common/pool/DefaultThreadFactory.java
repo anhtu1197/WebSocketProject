@@ -3,11 +3,7 @@ package com.myself.nettychat.common.pool;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 线程池
- **/
+
 public class DefaultThreadFactory implements ThreadFactory {
 
     private static final AtomicInteger poolNumber = new AtomicInteger(1);

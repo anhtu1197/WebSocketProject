@@ -5,11 +5,7 @@ import io.netty.handler.codec.mqtt.*;
 import io.netty.handler.timeout.IdleStateEvent;
 
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 抽象出客户端的事件
- **/
+
 public abstract class ClientMqttHandlerService implements MqttHandlerIntf {
 
     @Override

@@ -27,12 +27,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 14:32 2018\8\14 0014
- */
+
 @Controller
 @RequestMapping("/chat")
 public class NcChatController {
@@ -63,7 +58,6 @@ public class NcChatController {
         Sort sort = new Sort(Sort.Direction.DESC,"id");
         Pageable pageable = new PageRequest(page-1,size,sort);
         Page<UserMsg> userMsgPage = userMsgRepository.findAll(pageable);
-        //日期颠倒
         List<UserMsg> userMsgList = new ArrayList<>();
         for (int i = 0,j = userMsgPage.getContent().size()-1; i < userMsgPage.getContent().size();i++,j--){
             userMsgList.add(userMsgPage.getContent().get(j));

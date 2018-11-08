@@ -24,35 +24,18 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 16:01 2018\8\18 0018
- */
+
 @Controller
 @RequestMapping("/admin")
-public class NcLoginController {
+public class NcLoginController extends NcChangeController {
 
     @Autowired
     private UserService userService;
     @Autowired
     private UserMsgRepository userMsgRepository;
 
-    /**
-     * 登录页面
-     * @return
-     */
-//    @GetMapping("/login")
-//    public ModelAndView login(Map<String,Object> map){
-//        return new ModelAndView(H5Constant.LOGIN);
-//    }
 
 
-    /**
-     * 登录页面SUI
-     * @return
-     */
     @GetMapping("/loginsui")
     public ModelAndView loginSui(Map<String,Object> map){
         return new ModelAndView(H5Constant.LOGIN_SUI);
@@ -68,15 +51,6 @@ public class NcLoginController {
     }
 
 
-
-    /**
-     * 执行注册
-     * @param form
-     * @param bindingResult
-     * @param response
-     * @param map
-     * @return
-     */
     @PostMapping("/toRegister")
     public ModelAndView toRegister(@Valid LoginForm form, BindingResult bindingResult , HttpServletResponse response,
                                    Map<String, Object> map){
@@ -99,10 +73,6 @@ public class NcLoginController {
         return new ModelAndView(H5Constant.LOGIN_SUI,map);
     }
 
-    /**
-     * 登录判断
-     * @return
-     */
     @PostMapping("/toLogin")
     public ModelAndView toLogin(@RequestParam(value = "page",defaultValue = "1") Integer page,
                                 @RequestParam(value = "size",defaultValue = "10") Integer size,
@@ -115,22 +85,22 @@ public class NcLoginController {
         try {
             User user = userService.findByUserName(form.getFUserName());
             if (user.getPassWord().equals(form.getFPassWord())){
-                //登录成功
+                
                 String token = UUID.randomUUID().toString();
-                //将token信息添加到系统缓存中
+                
                 TokenStore.add(token,user.getId());
-                //将Token信息添加到Cookie中
+                
                 CookieUtil.set(response, CookieConstant.TOKEN,token,CookieConstant.EXPIRE);
-//                Sort sort = new Sort(Sort.Direction.DESC,"id");
-//                Pageable pageable = new PageRequest(page-1,size,sort);
-//                Page<UserMsg> userMsgPage = userMsgRepository.findAll(pageable);
-//                //日期颠倒
-//                List<UserMsg> userMsgList = new ArrayList<>();
-//                for (int i = 0,j = userMsgPage.getContent().size()-1; i < userMsgPage.getContent().size();i++,j--){
-//                    userMsgList.add(userMsgPage.getContent().get(j));
-//                }
-//                map.put("userMsgList",userMsgList);
-//                map.put("userName",user.getUserName());
+
+
+
+
+
+
+
+
+
+
                 return new ModelAndView(H5Constant.HOME);
             }else{
                 map.put("msg","密码错误");

@@ -15,11 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 默认MQTTHandler处理
- **/
+
 @Slf4j
 @Component
 @ChannelHandler.Sharable
@@ -44,7 +40,7 @@ public class DefaultMqttHandler extends MqttHander {
             serverMqttHandlerService =(ServerMqttHandlerService)mqttHandlerApi;
         }
         else{
-            throw new NoFindHandlerException("server handler 不匹配");
+            throw new NoFindHandlerException("server handler");
         }
         MqttFixedHeader mqttFixedHeader = mqttMessage.fixedHeader();
         if(mqttFixedHeader.messageType().equals(MqttMessageType.CONNECT)){
@@ -93,7 +89,7 @@ public class DefaultMqttHandler extends MqttHander {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        log.info("【DefaultMqttHandler：channelActive】"+ctx.channel().remoteAddress().toString()+"链接成功");
+        log.info("【DefaultMqttHandler：channelActive】"+ctx.channel().remoteAddress().toString()+"");
     }
 
     @Override

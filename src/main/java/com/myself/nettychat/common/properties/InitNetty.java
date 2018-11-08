@@ -6,12 +6,7 @@ import org.springframework.stereotype.Component;
 import com.myself.nettychat.common.enums.ProtocolEnum;
 import com.myself.nettychat.common.mqtts.MqttHander;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 10:54 2018\8\14 0014
- */
+
 @Data
 @ConfigurationProperties(prefix = "netty")
 public class InitNetty {

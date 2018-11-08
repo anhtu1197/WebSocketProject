@@ -24,11 +24,7 @@ import java.security.KeyStore;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 抽象类，负责加载edec handler
- **/
+
 public abstract class AbstractBootstrapServer implements BootstrapServer {
 
     private   String PROTOCOL = "TLS";
@@ -38,11 +34,6 @@ public abstract class AbstractBootstrapServer implements BootstrapServer {
     private static final String MQTT_CSV_LIST = "mqtt, mqttv3.1, mqttv3.1.1";
 
 
-    /**
-     *
-     * @param channelPipeline  channelPipeline
-     * @param serverBean  服务配置参数
-     */
     protected  void initHandler(ChannelPipeline channelPipeline, InitNetty serverBean){
         if(serverBean.isSsl()){
             if(!ObjectUtils.allNotNull(serverBean.getJksCertificatePassword(),serverBean.getJksFile(),serverBean.getJksStorePassword())){

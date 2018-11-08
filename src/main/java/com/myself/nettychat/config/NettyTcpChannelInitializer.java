@@ -9,12 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 19:26 2018\9\20 0020
- */
+
 @Component
 @Qualifier("tcpChannelInitializer")
 public class NettyTcpChannelInitializer extends ChannelInitializer<SocketChannel> {

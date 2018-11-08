@@ -7,11 +7,7 @@ import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 会话保留处理
- **/
+
 @Service
 public class ClientSessionService {
 

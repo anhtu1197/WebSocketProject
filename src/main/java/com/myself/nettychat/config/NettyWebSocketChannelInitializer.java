@@ -12,12 +12,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 11:00 2018\8\14 0014
- */
+
 @Component
 @Qualifier("somethingChannelInitializer")
 public class NettyWebSocketChannelInitializer extends ChannelInitializer<SocketChannel> {
@@ -33,7 +28,7 @@ public class NettyWebSocketChannelInitializer extends ChannelInitializer<SocketC
         pipeline.addLast(new HttpObjectAggregator(65536));
         pipeline.addLast(new ChunkedWriteHandler());
         pipeline.addLast(new WebSocketServerProtocolHandler("/ws"));
-        pipeline.addLast(textWebSocketFrameHandler);   //这里不能使用new，不然在handler中不能注入依赖
+        pipeline.addLast(textWebSocketFrameHandler);
 
     }
 

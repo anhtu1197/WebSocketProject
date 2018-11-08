@@ -5,17 +5,10 @@ import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.util.Enumeration;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc ip操作
- **/
+
 public class IpUtils {
 
-    /***
-     * 获取外网IP
-     * @return
-     */
+
     public static String internetIp() {
         try {
 
@@ -44,11 +37,7 @@ public class IpUtils {
         }
     }
 
-    /**
-     * 获取内网IP
-     *
-     * @return
-     */
+
     public static String intranetIp() {
         try {
             return InetAddress.getLocalHost().getHostAddress();
@@ -57,10 +46,6 @@ public class IpUtils {
         }
     }
 
-    /**
-     * 获取服务启动host
-     * @return
-     */
     public static String getHost(){
         return internetIp()==null?intranetIp():internetIp();
     }

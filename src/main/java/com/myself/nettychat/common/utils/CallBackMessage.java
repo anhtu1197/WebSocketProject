@@ -5,12 +5,7 @@ import io.netty.buffer.Unpooled;
 
 import java.nio.charset.Charset;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 19:30 2018\9\20 0020
- */
+
 public class CallBackMessage {
 
     public static final ByteBuf SUCCESS = Unpooled.unreleasableBuffer(

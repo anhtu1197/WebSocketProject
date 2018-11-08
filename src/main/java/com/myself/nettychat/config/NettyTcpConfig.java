@@ -17,12 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 19:27 2018\9\20 0020
- */
+
 @Component
 public class NettyTcpConfig {
 

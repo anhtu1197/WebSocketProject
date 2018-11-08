@@ -1,0 +1,864 @@
+@startuml
+
+title __NETTYCHAT's Class Diagram__\n
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      abstract class AbstractBootstrapServer {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.channel {
+        abstract class AbstractChannelService {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      interface BaseApi {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      interface BaseAuthService {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      interface BootstrapServer {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.coder {
+        class ByteBufToWebSocketFrameEncoder {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class ByteBufUtil {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class CRC16MySelf {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.channel {
+        package com.myself.nettychat.bootstrap.channel.cache {
+          class CacheMap {
+          }
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class CallBackMessage {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      interface ChannelService {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.mqtts {
+      abstract class ClientMqttHandlerService {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.channel {
+        class ClientSessionService {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.enums {
+      enum ConfirmStatus {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.exception {
+      class ConnectionException {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class Const {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.constont {
+      interface CookieConstant {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class CookieUtil {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class DataResction {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class DataValida {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    class DefaultAutoService {
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.handler {
+        class DefaultMqttHandler {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.pool {
+      class DefaultThreadFactory {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.pool {
+      class ExecutorQueue {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.constont {
+      interface H5Constant {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class IdWorker {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.properties {
+      class InitNetty {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.auto {
+      class InitServer {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.ip {
+      class IpUtils {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.constont {
+      class LikeRedisTemplate {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.constont {
+      class LikeSomeCacheTemplate {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.form {
+      class LoginForm {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class MessageId {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.bean {
+        class MqttChannel {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.channel {
+        class MqttChannelService {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.mqtts {
+      abstract class MqttHander {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.mqtts {
+      interface MqttHandlerIntf {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.channel {
+        class MqttHandlerService {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.task {
+      class MsgAsyncTesk {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.controller {
+      class NCBackController {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.controller {
+      class NcChangeController {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.controller {
+      class NcChatController {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.controller {
+      class NcLoginController {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      class NettyBootstrapServer {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.config {
+      class NettyConfig {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.config {
+      class NettyTcpChannelInitializer {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.config {
+      class NettyTcpConfig {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.config {
+      class NettyWebSocketChannelInitializer {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    class NettychatApplication {
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.exception {
+      class NoFindHandlerException {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.enums {
+      enum ProtocolEnum {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.channel {
+        class PublishApiSevice {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.enums {
+      enum QosStatus {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class RandomNameUtil {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class RemotingUtil {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class ResultVOUtil {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.vo {
+      class ResultVo {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.bean {
+        class RetainMessage {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.scan {
+        class SacnScheduled {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.scan {
+        abstract class ScanRunnable {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.pool {
+      interface Scheduled {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.task {
+      class ScheduledPool {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.ssl {
+      class SecureSocketKeyStore {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.ssl {
+      class SecureSocketSslContextFactory {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.ssl {
+      class SecureSokcetTrustManagerFactory {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.bean {
+        class SendMqttMessage {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class SendUtil {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.auto {
+      class ServerAutoConfigure {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.mqtts {
+      abstract class ServerMqttHandlerService {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.bean {
+        class SessionMessage {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.enums {
+      enum SessionStatus {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class SpringBeanUtils {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.pool {
+      class StandardThreadExecutor {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.ssl {
+      class StreamReader {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class StringUtil {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.enums {
+      enum SubStatus {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.config {
+      class TCPServer {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.config {
+      class TCPServerHandler {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.config {
+      class TextWebSocketFrameHandler {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.store {
+      class TokenStore {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.dataobject {
+      class User {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.dataobject {
+      class UserMsg {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.repository {
+      interface UserMsgRepository {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.repository {
+      interface UserRepository {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.service {
+      interface UserService {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.service {
+      package com.myself.nettychat.service.impl {
+        class UserServiceImpl {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.coder {
+        class WebSocketFrameToByteBufDecoder {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.bean {
+        class WillMeaasge {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.bootstrap {
+      package com.myself.nettychat.bootstrap.channel {
+        class WillService {
+        }
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.ssl {
+      class X509CertTool {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.zookeeper {
+      interface ZkStateListener {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.zookeeper {
+      class ZkUtils {
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.zookeeper {
+      class testZk {
+      }
+    }
+  }
+  
+
+  AbstractBootstrapServer -up-|> BootstrapServer
+  AbstractChannelService -up-|> ChannelService
+  AbstractChannelService -up-|> BaseApi
+  AbstractChannelService -up-|> PublishApiSevice
+  ByteBufToWebSocketFrameEncoder -up-|> MessageToMessageEncoder
+  ClientMqttHandlerService -up-|> MqttHandlerIntf
+  DefaultAutoService -up-|> BaseAuthService
+  DefaultMqttHandler -up-|> MqttHander
+  DefaultMqttHandler o-- MqttHandlerIntf : mqttHandlerApi
+  DefaultMqttHandler o-- ChannelService : channelService
+  DefaultThreadFactory -up-|> ThreadFactory
+  ExecutorQueue -up-|> LinkedTransferQueue
+  ExecutorQueue o-- StandardThreadExecutor : threadPoolExecutor
+  InitNetty o-- ProtocolEnum : protocol
+  InitServer o-- InitNetty : serverBean
+  InitServer o-- BootstrapServer : bootstrapServer
+  MqttChannel o-- SubStatus : subStatus
+  MqttChannel o-- SessionStatus : sessionStatus
+  MqttChannelService -up-|> AbstractChannelService
+  MqttChannelService o-- ClientSessionService : clientSessionService
+  MqttChannelService o-- WillService : willService
+  MqttChannelService o-- ScanRunnable : scanRunnable
+  MqttHander -up-|> SimpleChannelInboundHandler
+  MqttHander o-- MqttHandlerIntf : mqttHandlerApi
+  MqttHandlerService -up-|> BaseApi
+  MqttHandlerService -up-|> ServerMqttHandlerService
+  MqttHandlerService o-- ChannelService : mqttChannelService
+  MqttHandlerService o-- BaseAuthService : baseAuthService
+  MsgAsyncTesk o-- LikeSomeCacheTemplate : cacheTemplate
+  MsgAsyncTesk o-- UserMsgRepository : userMsgRepository
+  MsgAsyncTesk o-- UserRepository : userRepository
+  NCBackController o-- LikeRedisTemplate : redisTemplate
+  NcChangeController o-- UserService : userService
+  NcChatController o-- UserMsgRepository : userMsgRepository
+  NcChatController o-- UserService : userService
+  NcLoginController -up-|> NcChangeController
+  NcLoginController o-- UserService : userService
+  NcLoginController o-- UserMsgRepository : userMsgRepository
+  NettyBootstrapServer -up-|> AbstractBootstrapServer
+  NettyBootstrapServer o-- InitNetty : serverBean
+  NettyConfig o-- InitNetty : nettyAccountConfig
+  NettyConfig o-- NettyWebSocketChannelInitializer : nettyWebSocketChannelInitializer
+  NettyTcpChannelInitializer -up-|> ChannelInitializer
+  NettyTcpChannelInitializer o-- TCPServerHandler : tcpServerHandler
+  NettyTcpConfig o-- InitNetty : nettyAccountConfig
+  NettyTcpConfig o-- NettyTcpChannelInitializer : nettyTcpChannelInitializer
+  NettyWebSocketChannelInitializer -up-|> ChannelInitializer
+  NettyWebSocketChannelInitializer o-- TextWebSocketFrameHandler : textWebSocketFrameHandler
+  PublishApiSevice o-- ScanRunnable : scanRunnable
+  ResultVo -up-|> Serializable
+  ResultVo o-- T : data
+  SacnScheduled -up-|> ScanRunnable
+  ScanRunnable -up-|> Runnable
+  ScheduledPool -up-|> Scheduled
+  ScheduledPool o-- InitNetty : serverBean
+  SecureSokcetTrustManagerFactory -up-|> TrustManagerFactorySpi
+  SendMqttMessage o-- ConfirmStatus : confirmStatus
+  ServerMqttHandlerService -up-|> MqttHandlerIntf
+  SpringBeanUtils -up-|> ApplicationContextAware
+  StandardThreadExecutor -up-|> ThreadPoolExecutor
+  TCPServerHandler -up-|> ChannelInboundHandlerAdapter
+  TextWebSocketFrameHandler -up-|> SimpleChannelInboundHandler
+  TextWebSocketFrameHandler o-- LikeRedisTemplate : redisTemplate
+  TextWebSocketFrameHandler o-- LikeSomeCacheTemplate : cacheTemplate
+  TextWebSocketFrameHandler o-- MsgAsyncTesk : msgAsyncTesk
+  User -up-|> Serializable
+  UserMsg -up-|> Serializable
+  UserServiceImpl -up-|> UserService
+  UserServiceImpl o-- UserRepository : repository
+  WebSocketFrameToByteBufDecoder -up-|> MessageToMessageDecoder
+  WillService -up-|> BaseApi
+  WillService o-- ChannelService : channelService
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

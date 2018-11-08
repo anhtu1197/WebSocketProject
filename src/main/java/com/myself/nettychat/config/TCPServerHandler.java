@@ -17,12 +17,7 @@ import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 19:29 2018\9\20 0020
- */
+
 @Component
 @Qualifier("tcpServerHandler")
 @ChannelHandler.Sharable

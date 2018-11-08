@@ -2,12 +2,7 @@ package com.myself.nettychat.common.utils;
 
 import com.myself.nettychat.vo.ResultVo;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 20:59 2018\10\7 0007
- */
+
 public class ResultVOUtil {
     public static ResultVo success(Object object){
         ResultVo resultVO = new ResultVo();

@@ -8,11 +8,7 @@ import io.netty.handler.codec.mqtt.*;
 import java.util.List;
 import java.util.Set;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 消息处理
- **/
+
 public interface ChannelService {
 
     MqttChannel getMqttChannel(String deviceId);

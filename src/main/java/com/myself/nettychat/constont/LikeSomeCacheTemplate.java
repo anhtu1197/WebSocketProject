@@ -7,13 +7,7 @@ import org.springframework.stereotype.Component;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * 聊天内容临时存储
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 13:38 2018\8\14 0014
- */
+
 @Component
 public class LikeSomeCacheTemplate {
 

@@ -1,0 +1,249 @@
+@startuml
+
+title __UTILS's Class Diagram__\n
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class ByteBufUtil {
+          {static} + copyByteBuf()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class CRC16MySelf {
+          {static} + getAllString()
+          {static} + getCRC()
+          - parseHex2Float()
+          - parseFloat2Hex()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class CallBackMessage {
+          {static} + SUCCESS : ByteBuf
+          {static} + ERROR : ByteBuf
+          {static} + Check1_test : ByteBuf
+          {static} + Check2 : ByteBuf
+          {static} + sendString()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class Const {
+          {static} + HEAD : String
+          {static} + TAIL : String
+          {static} + CONTROL_TYPE : String
+          {static} + LOCKS : String
+          {static} + OPEN : char
+          {static} + RESULT_TYPE : String
+          {static} + RESULT_TEXT : String
+          {static} + SUCCESS : String
+          {static} + ERROR : String
+          {static} - map : Map<String, Channel>
+          {static} + add()
+          {static} + hasChannelID()
+          {static} + get()
+          {static} + remove()
+          {static} + getSzie()
+          {static} + getIdList()
+          {static} + mapInfo()
+          {static} + isChannel()
+          {static} + ChangeClientId()
+          {static} + changeChannel()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      enum StateEnum {
+        SUCCESS
+        FALID
+        state
+        stateInfo
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class CookieUtil {
+          {static} + set()
+          {static} + get()
+          {static} - readCookieMap()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class DataResction {
+          {static} + ResctionHeadAndFeet()
+          {static} + ResctionHeadAndFeet_test()
+          {static} + ResctionCRCCode()
+          {static} + ResctionData()
+          {static} + ResctionDataNoID()
+          {static} + ResctionID()
+          {static} + ResctionType()
+          {static} + ResctionRealData()
+          {static} + ResctionPower()
+          {static} + ResctionLatitude()
+          {static} + ResctionLongitude()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class DataValida {
+          {static} + ValidateHeadAndFeet()
+          {static} + ValidateHeadAndFeet_test()
+          {static} + ValidateCRCCode()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class IdWorker {
+          {static} - twepoch : long
+          {static} - workerIdBits : long
+          {static} - datacenterIdBits : long
+          {static} - maxWorkerId : long
+          {static} - maxDatacenterId : long
+          {static} - sequenceBits : long
+          {static} - workerIdShift : long
+          {static} - datacenterIdShift : long
+          {static} - timestampLeftShift : long
+          {static} - sequenceMask : long
+          {static} - lastTimestamp : long
+          - sequence : long
+          - workerId : long
+          - datacenterId : long
+          + IdWorker()
+          + IdWorker()
+          + nextId()
+          - tilNextMillis()
+          - timeGen()
+          {static} # getMaxWorkerId()
+          {static} # getDatacenterId()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class MessageId {
+          {static} - index : AtomicInteger
+          {static} + messageId()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class RandomNameUtil {
+          {static} - ran : Random
+          {static} - delta : int
+          {static} + getName()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class RemotingUtil {
+          {static} + OS_NAME : String
+          {static} - log : Logger
+          {static} - isLinuxPlatform : boolean
+          {static} - isWindowsPlatform : boolean
+          {static} + isWindowsPlatform()
+          {static} + openSelector()
+          {static} + isLinuxPlatform()
+          {static} + getLocalAddress()
+          {static} + normalizeHostAddress()
+          {static} + string2SocketAddress()
+          {static} + socketAddress2String()
+          {static} + connect()
+          {static} + connect()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class ResultVOUtil {
+          {static} + success()
+          {static} + success()
+          {static} + error()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class SendUtil {
+          + send()
+          + sendAll()
+          + IntegerToString()
+          {static} + sendTest()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class SpringBeanUtils {
+          {static} - applicationContext : ApplicationContext
+          + setApplicationContext()
+          {static} + getApplicationContext()
+          {static} + getBean()
+          {static} + getBean()
+          {static} + getBean()
+      }
+    }
+  }
+  
+
+  package com.myself.nettychat {
+    package com.myself.nettychat.common.utils {
+      class StringUtil {
+          {static} + getName()
+          {static} + getMsg()
+      }
+    }
+  }
+  
+
+  Const +-down- StateEnum
+  SpringBeanUtils -up-|> ApplicationContextAware
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

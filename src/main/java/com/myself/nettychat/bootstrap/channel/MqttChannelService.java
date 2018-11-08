@@ -25,11 +25,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.CopyOnWriteArraySet;
 
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc Channel事件处理service
- **/
+
 @Slf4j
 @Component
 public class MqttChannelService extends AbstractChannelService {
@@ -49,7 +45,7 @@ public class MqttChannelService extends AbstractChannelService {
 
 
     /**
-     * 取消订阅
+     *
      */
     @Override
     public void unsubscribe(String deviceId, List<String> topics1) {
@@ -61,7 +57,7 @@ public class MqttChannelService extends AbstractChannelService {
     }
 
     /**
-     * 登录成功后 回复
+     *
      */
     private void replyLogin(Channel channel, MqttConnectMessage mqttConnectMessage) {
         MqttFixedHeader mqttFixedHeader1 = mqttConnectMessage.fixedHeader();
@@ -77,14 +73,14 @@ public class MqttChannelService extends AbstractChannelService {
                 .message(new ConcurrentHashMap<>())
                 .receive(new CopyOnWriteArraySet<>())
                 .build();
-        if (connectSuccess(deviceId, build)) { // 初始化存储mqttchannel
-            if (mqttConnectVariableHeader.isWillFlag()) { // 遗嘱消息标志
+        if (connectSuccess(deviceId, build)) { // mqttchannel
+            if (mqttConnectVariableHeader.isWillFlag()) { //
                 boolean b = doIf(mqttConnectVariableHeader, mqttConnectVariableHeader1 -> (payload.willMessage() != null)
                         , mqttConnectVariableHeader1 -> (payload.willTopic() != null));
                 if (!b) {
                     throw new ConnectionException("will message and will topic is not null");
                 }
-                // 处理遗嘱消息
+                //
                 final WillMeaasge buildWill = WillMeaasge.builder().
                         qos(mqttConnectVariableHeader.willQos())
                         .willMessage(deviceId)
@@ -106,16 +102,16 @@ public class MqttChannelService extends AbstractChannelService {
                 MqttFixedHeader mqttFixedHeader = new MqttFixedHeader(
                         MqttMessageType.CONNACK, mqttFixedHeader1.isDup(), MqttQoS.AT_MOST_ONCE, mqttFixedHeader1.isRetain(), 0x02);
                 MqttConnAckMessage connAck = new MqttConnAckMessage(mqttFixedHeader, mqttConnAckVariableHeader);
-                channel.writeAndFlush(connAck);// 清理会话
+                channel.writeAndFlush(connAck);//
             }, mqttConnectVariableHeader1 -> {
                 MqttConnectReturnCode connectReturnCode = MqttConnectReturnCode.CONNECTION_ACCEPTED;
                 MqttConnAckVariableHeader mqttConnAckVariableHeader = new MqttConnAckVariableHeader(connectReturnCode, true);
                 MqttFixedHeader mqttFixedHeader = new MqttFixedHeader(
                         MqttMessageType.CONNACK, mqttFixedHeader1.isDup(), MqttQoS.AT_MOST_ONCE, mqttFixedHeader1.isRetain(), 0x02);
                 MqttConnAckMessage connAck = new MqttConnAckMessage(mqttFixedHeader, mqttConnAckVariableHeader);
-                channel.writeAndFlush(connAck);// 非清理会话
+                channel.writeAndFlush(connAck);//
 
-            });         //发送 session  数据
+            });         //session
             ConcurrentLinkedQueue<SessionMessage> sessionMessages = clientSessionService.getByteBuf(payload.clientIdentifier());
             doIfElse(sessionMessages, messages -> messages != null && !messages.isEmpty(), byteBufs -> {
                 SessionMessage sessionMessage;
@@ -140,7 +136,7 @@ public class MqttChannelService extends AbstractChannelService {
 
 
     /**
-     * qos2 第二步
+     * qos2
      */
     @Override
     public void doPubrel(Channel channel, int messageId) {
@@ -154,7 +150,7 @@ public class MqttChannelService extends AbstractChannelService {
 
 
     /**
-     * qos2 第三步
+     * qos2
      */
     @Override
     public void doPubrec(Channel channel, int mqttMessage) {
@@ -162,7 +158,7 @@ public class MqttChannelService extends AbstractChannelService {
     }
 
     /**
-     * 连接成功后
+     *
      * @param deviceId
      * @param build
      */
@@ -175,7 +171,7 @@ public class MqttChannelService extends AbstractChannelService {
                             return false;
                         case CLOSE:
                             switch (mqttChannel.getSubStatus()){
-                                case YES: // 清除订阅  topic
+                                case YES: //  topic
                                     deleteSubTopic(mqttChannel).stream()
                                             .forEach(s -> cacheMap.putData(getTopic(s),build));
                                     break;
@@ -191,7 +187,7 @@ public class MqttChannelService extends AbstractChannelService {
 
 
     /**
-     * 订阅成功后 (发送保留消息)
+     *
      */
     public void suscribeSuccess(String deviceId, Set<String> topics){
         doIfElse(topics,topics1->!CollectionUtils.isEmpty(topics1),strings -> {
@@ -203,7 +199,7 @@ public class MqttChannelService extends AbstractChannelService {
                     if(mqttChannel1.isLogin()){
                         strings.parallelStream().forEach(topic -> {
                             addChannel(topic,mqttChannel);
-                            sendRetain(topic,mqttChannel); // 发送保留消息
+                            sendRetain(topic,mqttChannel); //
                         });
                     }
                 });
@@ -213,7 +209,7 @@ public class MqttChannelService extends AbstractChannelService {
 
 
     /**
-     *成功登陆 (发送会话消息)
+     *
      * @param channel
      * @param deviceId
      * @param mqttConnectMessage
@@ -227,7 +223,7 @@ public class MqttChannelService extends AbstractChannelService {
 
 
     /**
-     * 发布消息成功 ()
+     *
      * @param channel
      * @param mqttPublishMessage
      */
@@ -243,7 +239,7 @@ public class MqttChannelService extends AbstractChannelService {
             if (channel.hasAttr(_login) && mqttChannel != null) {
                 boolean isRetain;
                 switch (mqttFixedHeader.qosLevel()) {
-                    case AT_MOST_ONCE: // 至多一次
+                    case AT_MOST_ONCE: //
                         break;
                     case AT_LEAST_ONCE:
                         sendPubBack(channel, messageId);
@@ -274,7 +270,7 @@ public class MqttChannelService extends AbstractChannelService {
 
     }
     /**
-     * 推送消息给订阅者
+     *
      */
     private  void push(String topic, MqttQoS qos, byte[] bytes, boolean isRetain){
         Collection<MqttChannel> subChannels = getChannels(topic, topic1 -> cacheMap.getData(getTopic(topic1)));
@@ -313,7 +309,7 @@ public class MqttChannelService extends AbstractChannelService {
     }
 
     /**
-     * 关闭channel 操作
+     * channel
      * @param deviceId
      */
     @Override
@@ -322,11 +318,11 @@ public class MqttChannelService extends AbstractChannelService {
             executorService.execute(() -> {
                 MqttChannel mqttChannel = mqttChannels.get(deviceId);
                 Optional.ofNullable(mqttChannel).ifPresent(mqttChannel1 -> {
-                    mqttChannel1.setSessionStatus(SessionStatus.CLOSE); // 设置关闭
-                    mqttChannel1.close(); // 关闭channel
+                    mqttChannel1.setSessionStatus(SessionStatus.CLOSE); //
+                    mqttChannel1.close(); // channel
                     mqttChannel1.setChannel(null);
-                    if(!mqttChannel1.isCleanSession()){ // 保持会话
-                        // 处理 qos1 未确认数据
+                    if(!mqttChannel1.isCleanSession()){ //
+                        //
                         ConcurrentHashMap<Integer, SendMqttMessage> message = mqttChannel1.getMessage();
                         Optional.ofNullable(message).ifPresent(integerConfirmMessageConcurrentHashMap -> {
                             integerConfirmMessageConcurrentHashMap.forEach((integer, confirmMessage) -> doIfElse(confirmMessage, sendMqttMessage ->sendMqttMessage.getConfirmStatus()== ConfirmStatus.PUB, sendMqttMessage ->{
@@ -334,22 +330,22 @@ public class MqttChannelService extends AbstractChannelService {
                                                 .byteBuf(sendMqttMessage.getByteBuf())
                                                 .qoS(sendMqttMessage.getQos())
                                                 .topic(sendMqttMessage.getTopic())
-                                                .build()); // 把待确认数据转入session中
+                                                .build()); // 入session
                                     }
                             ));
 
                         });
                     }
-                    else{  // 删除sub topic-消息
-                        mqttChannels.remove(deviceId); // 移除channelId  不保持会话 直接删除  保持会话 旧的在重新connect时替换
+                    else{  //
+                        mqttChannels.remove(deviceId); //
                         switch (mqttChannel1.getSubStatus()){
                             case YES:
                                 deleteSubTopic(mqttChannel1);
                                 break;
                         }
                     }
-                    if(mqttChannel1.isWill()){     // 发送遗言
-                        if(!isDisconnect){ // 不是disconnection操作
+                    if(mqttChannel1.isWill()){     //
+                        if(!isDisconnect){ //
                             willService.doSend(deviceId);
                         }
                     }
@@ -359,7 +355,7 @@ public class MqttChannelService extends AbstractChannelService {
     }
 
     /**
-     * 清除channel 订阅主题
+     *
      * @param mqttChannel
      */
     public Set<String>  deleteSubTopic(MqttChannel mqttChannel){
@@ -369,8 +365,7 @@ public class MqttChannelService extends AbstractChannelService {
     }
 
     /**
-     * 发送 遗嘱消息(有的channel 已经关闭 但是保持了 session  此时加入session 数据中 )
-     * @param willMeaasge 遗嘱消息
+     *
      */
     public void sendWillMsg(WillMeaasge willMeaasge){
         Collection<MqttChannel> mqttChannels = getChannels(willMeaasge.getWillTopic(), topic -> cacheMap.getData(getTopic(topic)));
@@ -393,9 +388,7 @@ public class MqttChannelService extends AbstractChannelService {
     }
 
     /**
-     * 保存保留消息
-     * @param topic 主题
-     * @param retainMessage 信息
+     *
      */
     private void saveRetain(String topic, RetainMessage retainMessage, boolean isClean){
         ConcurrentLinkedQueue<RetainMessage> retainMessages = retain.getOrDefault(topic, new ConcurrentLinkedQueue<>());
@@ -411,14 +404,14 @@ public class MqttChannelService extends AbstractChannelService {
     }
 
     /**
-     * 发送保留消息
+     *
      */
     public  void sendRetain(String topic,MqttChannel mqttChannel){
         retain.forEach((_topic, retainMessages) -> {
             if(StringUtils.startsWith(_topic,topic)){
                 Optional.ofNullable(retainMessages).ifPresent(pubMessages1 -> {
                     retainMessages.parallelStream().forEach(retainMessage -> {
-                        log.info("【发送保留消息】"+mqttChannel.getChannel().remoteAddress()+":"+retainMessage.getString()+"【成功】");
+                        log.info(""+mqttChannel.getChannel().remoteAddress()+":"+retainMessage.getString()+"");
                         switch (retainMessage.getQoS()){
                             case AT_MOST_ONCE:
                                 sendQos0Msg(mqttChannel.getChannel(),_topic,retainMessage.getByteBuf());

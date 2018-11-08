@@ -7,11 +7,7 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 逻辑操作封装
- **/
+
 public interface BaseApi {
 
     default  <T> void  doIfElse(T t, Predicate<T> predicate, Consumer<T> consumer){

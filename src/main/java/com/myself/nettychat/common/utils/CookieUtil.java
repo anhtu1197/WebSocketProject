@@ -6,16 +6,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * cookie工具类
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 12:06 2018\6\13 0013
- */
+
 public class CookieUtil {
     /**
-     * 设置cookie
+     *
      * @param response
      * @param name
      * @param value
@@ -32,7 +26,7 @@ public class CookieUtil {
     }
 
     /**
-     * 获取cookie
+     *
      * @param request
      * @param name
      * @return
@@ -48,7 +42,7 @@ public class CookieUtil {
     }
 
     /**
-     * 将cookie封装成Map
+     *
      * @param request
      * @return
      */

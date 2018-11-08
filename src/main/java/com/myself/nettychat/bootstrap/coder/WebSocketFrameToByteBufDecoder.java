@@ -7,11 +7,7 @@ import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
 
 import java.util.List;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 转换
- **/
+
 public class WebSocketFrameToByteBufDecoder extends MessageToMessageDecoder<BinaryWebSocketFrame> {
 
 

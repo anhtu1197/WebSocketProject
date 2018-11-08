@@ -2,16 +2,11 @@ package com.myself.nettychat.common.utils;
 
 import java.math.BigInteger;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 19:31 2018\9\20 0020
- */
+
 public class CRC16MySelf {
 
     /**
-     * 生成指定格式的传输数据
+     *
      * @param ChannelId
      * @param type
      * @param data
@@ -25,10 +20,10 @@ public class CRC16MySelf {
     }
 
     /**
-     * 计算CRC16校验码
      *
-     * @param bytes 字节数组
-     * @return {@link String} 校验码
+     *
+     * @param bytes
+     * @return {@link String}
      * @since 1.0
      */
     public static String getCRC(byte[] bytes) {
@@ -50,7 +45,7 @@ public class CRC16MySelf {
     }
 
     /**
-     * 将16进制单精度浮点型转换为10进制浮点型
+     *
      *
      * @return float
      * @since 1.0
@@ -61,7 +56,7 @@ public class CRC16MySelf {
     }
 
     /**
-     * 将十进制浮点型转换为十六进制浮点型
+     *
      *
      * @return String
      * @since 1.0

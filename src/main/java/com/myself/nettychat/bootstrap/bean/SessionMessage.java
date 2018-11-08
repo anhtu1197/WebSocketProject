@@ -6,11 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc Session会话数据保存
- **/
+
 @Builder
 @Data
 public class SessionMessage {

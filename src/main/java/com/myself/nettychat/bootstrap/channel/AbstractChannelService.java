@@ -20,11 +20,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 抽象类
- **/
+
 @Slf4j
 public abstract class AbstractChannelService extends PublishApiSevice implements ChannelService , BaseApi {
 
@@ -85,7 +81,7 @@ public abstract class AbstractChannelService extends PublishApiSevice implements
     }
 
     /**
-     * 获取channel
+     * channel
      */
     public MqttChannel getMqttChannel(String deviceId){
         return Optional.ofNullable(deviceId).map(s -> mqttChannels.get(s))
@@ -94,7 +90,7 @@ public abstract class AbstractChannelService extends PublishApiSevice implements
     }
 
     /**
-     * 获取channelId
+
      */
     public String  getDeviceId(Channel channel){
         return  Optional.ofNullable(channel).map( channel1->channel1.attr(_deviceId).get())

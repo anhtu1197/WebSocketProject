@@ -11,11 +11,7 @@ import io.netty.channel.Channel;
 import io.netty.handler.codec.mqtt.*;
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 发送消息以及确认
- **/
+
 @Slf4j
 public class PublishApiSevice {
 
@@ -27,10 +23,10 @@ public class PublishApiSevice {
 
 
     /**
-     * 写入遗嘱消息
+     *
      */
     protected void writeWillMsg(MqttChannel mqttChannel, WillMeaasge willMeaasge) {
-//        dup保证消息可靠传输，默认为0，只占用一个字节，表示第一次发送。不能用于检测消息重复发送等
+
         switch (willMeaasge.getQos()){
             case 0: // qos0
                 sendQos0Msg(mqttChannel.getChannel(),willMeaasge.getWillTopic(),willMeaasge.getWillMessage().getBytes());
@@ -63,7 +59,7 @@ public class PublishApiSevice {
 
 
     /**
-     * 发送 qos1 类的消息
+     *
      */
     private SendMqttMessage sendQos1Msg(Channel channel, String topic, boolean isDup, byte[] byteBuf, int messageId){
         MqttFixedHeader mqttFixedHeader = new MqttFixedHeader(MqttMessageType.PUBLISH,isDup, MqttQoS.AT_LEAST_ONCE,false,0);
@@ -76,7 +72,7 @@ public class PublishApiSevice {
 
 
     /**
-     * 发送 qos0 类的消息  byte
+     *  byte
      */
     protected   void  sendQos0Msg(Channel channel, String topic, byte[] byteBuf){
         if(channel!=null){
@@ -103,7 +99,7 @@ public class PublishApiSevice {
 
 
     /**
-     * 发送qos1 publish  确认消息
+     *
      */
     protected   void  sendPubBack(Channel channel,int messageId){
         MqttFixedHeader mqttFixedHeader = new MqttFixedHeader(MqttMessageType.PUBACK,false, MqttQoS.AT_MOST_ONCE,false,0x02);
@@ -114,7 +110,7 @@ public class PublishApiSevice {
 
 
     /**
-     * 发送qos2 publish  确认消息 第一步
+     *
      */
     protected   void  sendPubRec( MqttChannel mqttChannel,int messageId){
         MqttFixedHeader mqttFixedHeader = new MqttFixedHeader(MqttMessageType.PUBREC,false, MqttQoS.AT_LEAST_ONCE,false,0x02);
@@ -127,7 +123,7 @@ public class PublishApiSevice {
     }
 
     /**
-     * 发送qos2 publish  确认消息 第二步
+     *
      */
     protected   void  sendPubRel(Channel channel,boolean isDup,int messageId){
         MqttFixedHeader mqttFixedHeader = new MqttFixedHeader(MqttMessageType.PUBREL,isDup, MqttQoS.AT_LEAST_ONCE,false,0x02);
@@ -137,7 +133,7 @@ public class PublishApiSevice {
     }
 
     /**
-     * 发送qos2 publish  确认消息 第三步
+     *
      */
     protected   void  sendToPubComp(Channel channel,int messageId){
         MqttFixedHeader mqttFixedHeader = new MqttFixedHeader(MqttMessageType.PUBCOMP,false, MqttQoS.AT_MOST_ONCE,false,0x02);

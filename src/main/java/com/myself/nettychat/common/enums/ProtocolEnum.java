@@ -1,10 +1,6 @@
 package com.myself.nettychat.common.enums;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 协议
- **/
+
 public enum ProtocolEnum {
     MQTT,
 

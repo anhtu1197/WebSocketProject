@@ -13,12 +13,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.concurrent.Future;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 13:50 2018\8\14 0014
- */
+
 @Component
 public class MsgAsyncTesk {
 
@@ -36,13 +31,13 @@ public class MsgAsyncTesk {
 
         List<UserMsg> userMsgList = cacheTemplate.cloneCacheMap();
         for (UserMsg item:userMsgList){
-            //保护措施
+            
             User user = userRepository.findByUserName(item.getName());
             if (user != null){
                 userMsgRepository.save(item);
             }
         }
-        //清空临时缓存
+        
         cacheTemplate.clearCacheMap();
         return new AsyncResult<>(true);
     }

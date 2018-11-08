@@ -8,11 +8,7 @@ import lombok.Data;
 
 import com.myself.nettychat.common.enums.ConfirmStatus;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc mqtts 消息
- **/
+
 @Builder
 @Data
 public class SendMqttMessage {

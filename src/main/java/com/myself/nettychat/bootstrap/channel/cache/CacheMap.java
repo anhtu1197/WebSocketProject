@@ -5,11 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 缓存操作
- **/
+
 @Slf4j
 public class CacheMap<K,V> {
 

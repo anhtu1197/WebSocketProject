@@ -10,12 +10,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PreDestroy;
 import java.net.InetSocketAddress;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 11:00 2018\8\14 0014
- */
+
 @Data
 @Component
 public class TCPServer {

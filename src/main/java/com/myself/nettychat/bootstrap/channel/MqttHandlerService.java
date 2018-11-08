@@ -34,12 +34,12 @@ public class MqttHandlerService extends ServerMqttHandlerService implements Base
     }
 
     /**
-     * 登录
+     *
      *
      */
     @Override
     public boolean login(Channel channel, MqttConnectMessage mqttConnectMessage) {
-//        校验规则 自定义校验规则
+//
         MqttConnectPayload payload = mqttConnectMessage.payload();
         String deviceId = payload.clientIdentifier();
         if (StringUtils.isBlank(deviceId)) {
@@ -79,7 +79,7 @@ public class MqttHandlerService extends ServerMqttHandlerService implements Base
 
 
     /**
-     * 发布
+     *
      */
     @Override
     public void publish(Channel channel, MqttPublishMessage mqttPublishMessage) {
@@ -87,7 +87,7 @@ public class MqttHandlerService extends ServerMqttHandlerService implements Base
     }
 
     /**
-     * 订阅
+     *
      */
     @Override
     public void subscribe(Channel channel, MqttSubscribeMessage mqttSubscribeMessage) {
@@ -112,7 +112,7 @@ public class MqttHandlerService extends ServerMqttHandlerService implements Base
 
 
     /**
-     * 关闭通道
+     *
      */
     @Override
     public void close(Channel channel) {
@@ -121,7 +121,7 @@ public class MqttHandlerService extends ServerMqttHandlerService implements Base
     }
 
     /**
-     * 回复pong消息
+     *
      */
     @Override
     public void pong(Channel channel) {
@@ -133,7 +133,7 @@ public class MqttHandlerService extends ServerMqttHandlerService implements Base
     }
 
     /**
-     * 取消订阅
+     *
      */
     @Override
     public void unsubscribe(Channel channel, MqttUnsubscribeMessage mqttMessage) {
@@ -143,7 +143,7 @@ public class MqttHandlerService extends ServerMqttHandlerService implements Base
     }
 
     /**
-     * 回复取消订阅
+     *
      */
     private void unSubBack(Channel channel, int messageId) {
         MqttFixedHeader mqttFixedHeader = new MqttFixedHeader(MqttMessageType.UNSUBACK, false, MqttQoS.AT_MOST_ONCE, false, 0x02);
@@ -154,7 +154,7 @@ public class MqttHandlerService extends ServerMqttHandlerService implements Base
 
 
     /**
-     * 消息回复确认(qos1 级别 保证收到消息  但是可能会重复)
+     *
      */
     @Override
     public void puback(Channel channel, MqttMessage mqttMessage) {
@@ -165,7 +165,7 @@ public class MqttHandlerService extends ServerMqttHandlerService implements Base
 
 
     /**
-     * disconnect 主动断线
+     * disconnect
      */
     @Override
     public void disconnect(Channel channel) {
@@ -174,7 +174,7 @@ public class MqttHandlerService extends ServerMqttHandlerService implements Base
 
 
     /**
-     * qos2 发布收到
+     * qos2
      */
     @Override
     public void pubrec(Channel channel, MqttMessage mqttMessage ) {
@@ -185,7 +185,7 @@ public class MqttHandlerService extends ServerMqttHandlerService implements Base
     }
 
     /**
-     * qos2 发布释放
+     * qos2
      */
     @Override
     public void pubrel(Channel channel, MqttMessage mqttMessage ) {
@@ -197,19 +197,19 @@ public class MqttHandlerService extends ServerMqttHandlerService implements Base
     }
 
     /**
-     * qos2 发布完成
+     * qos2
      */
     @Override
     public void pubcomp(Channel channel, MqttMessage mqttMessage ) {
         MqttMessageIdVariableHeader mqttMessageIdVariableHeader = (MqttMessageIdVariableHeader) mqttMessage.variableHeader();
         int messageId = mqttMessageIdVariableHeader.messageId();
         SendMqttMessage sendMqttMessage = mqttChannelService.getMqttChannel(mqttChannelService.getDeviceId(channel)).getSendMqttMessage(messageId);
-        sendMqttMessage.setConfirmStatus(ConfirmStatus.COMPLETE); // 复制为空
+        sendMqttMessage.setConfirmStatus(ConfirmStatus.COMPLETE); //
     }
 
     @Override
     public void doTimeOut(Channel channel, IdleStateEvent evt) {
-        log.info("【PingPongService：doTimeOut 心跳超时】" + channel.remoteAddress() + "【channel 关闭】");
+        log.info("【PingPongService：doTimeOut " + channel.remoteAddress() + "【channel ");
         switch (evt.state()) {
             case READER_IDLE:
                 close(channel);

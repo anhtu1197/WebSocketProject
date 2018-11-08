@@ -4,11 +4,7 @@ import io.netty.channel.Channel;
 import io.netty.handler.codec.mqtt.*;
 import io.netty.handler.timeout.IdleStateEvent;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc 抽象出服务端的事件
- **/
+
 public abstract class ServerMqttHandlerService implements MqttHandlerIntf {
 
     public abstract boolean login(Channel channel, MqttConnectMessage mqttConnectMessage);

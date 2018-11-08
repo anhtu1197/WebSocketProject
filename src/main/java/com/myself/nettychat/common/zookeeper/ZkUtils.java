@@ -46,17 +46,6 @@ public class ZkUtils {
     List<TreeCache> treeCaches = new CopyOnWriteArrayList<>();
 
 
-    /**
-     * 初始化zk链接
-     *
-     * @param zookeeperServer
-     * @param connectionTimeout
-     * @param sessionTimeout
-     * @param maxRetries
-     * @param retriesSleepTime
-     * @param namespace
-     * @param listener
-     */
     public void init(String zookeeperServer,
                      int connectionTimeout,
                      int sessionTimeout,
@@ -86,9 +75,7 @@ public class ZkUtils {
         });
         zkClient.start();
     }
-    /**
-     * 销毁所有
-     */
+
     public void destory() {
         pathChildrenCaches.stream().forEach(cache -> CloseableUtils.closeQuietly(cache));
         pathChildrenCaches.clear();
@@ -105,14 +92,7 @@ public class ZkUtils {
     }
 
 
-    /**
-     * 创建节点
-     *
-     * @param path
-     * @param data
-     * @param mode
-     * @return
-     */
+
     public boolean createNode(String path, String data, CreateMode mode) {
         if (!ObjectUtils.allNotNull(zkClient, path)) {
             return Boolean.FALSE;
@@ -137,13 +117,7 @@ public class ZkUtils {
     }
 
 
-    /**
-     * 删除节点  递归删除子节点
-     *
-     * @param path
-     * @param version
-     * @return
-     */
+
     public boolean deleteNode(String path, Integer version) {
         if (!ObjectUtils.allNotNull(zkClient, path)) {
             return Boolean.FALSE;
@@ -164,22 +138,12 @@ public class ZkUtils {
         return Boolean.FALSE;
     }
 
-    /**
-     * 删除节点
-     *
-     * @param path
-     * @return
-     */
+
     public boolean deleteNode(String path) {
         return deleteNode(path, null);
     }
 
-    /**
-     * 获取指定节点的值
-     *
-     * @param path
-     * @return
-     */
+
     public byte[] getNodeData(String path) {
         if (!ObjectUtils.allNotNull(zkClient, path)) {
             return null;
@@ -195,23 +159,12 @@ public class ZkUtils {
         return null;
     }
 
-    /**
-     * 获取指定节点的值
-     *
-     * @param path
-     * @return
-     */
+
     public String getNodeDataStr(String path) {
         byte[] val = getNodeData(path);
         return val == null ? null : new String(val, Charsets.UTF_8);
     }
 
-    /**
-     * 检查节点是否存在
-     *
-     * @param path
-     * @return
-     */
     public Stat exists(String path) {
         if (!ObjectUtils.allNotNull(zkClient, path)) {
             return null;
@@ -224,35 +177,17 @@ public class ZkUtils {
         return null;
     }
 
-    /**
-     * 检查节点是否存在
-     *
-     * @param path
-     * @return
-     */
+
     public boolean checkExists(String path) {
         return exists(path) == null ? Boolean.FALSE : Boolean.TRUE;
     }
 
-    /**
-     * 设置节点数据
-     *
-     * @param path
-     * @param data
-     * @return
-     */
+
     public boolean setNodeData(String path, String data) {
         return setNodeData(path, data.getBytes(Charsets.UTF_8), null);
     }
 
-    /**
-     * 设置节点数据
-     *
-     * @param path
-     * @param data
-     * @param version
-     * @return
-     */
+
     public boolean setNodeData(String path, byte[] data, Integer version) {
         if (!ObjectUtils.allNotNull(zkClient, path)) {
             return Boolean.FALSE;
@@ -273,12 +208,7 @@ public class ZkUtils {
         return Boolean.FALSE;
     }
 
-    /**
-     * 设置子节点更改监听
-     *
-     * @param path
-     * @throws Exception
-     */
+
     public boolean listenerPathChildrenCache(String path, BiConsumer<CuratorFramework, PathChildrenCacheEvent> biConsumer) {
 
         if (!ObjectUtils.allNotNull(zkClient, path, biConsumer)) {
@@ -306,12 +236,7 @@ public class ZkUtils {
     }
 
 
-    /**
-     * 读取指定节点的子菜单的值
-     *
-     * @param path
-     * @return
-     */
+
     public Map<String, String> readTargetChildsData(String path) {
         if (!ObjectUtils.allNotNull(zkClient, path)) {
             return null;

@@ -9,11 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.util.Optional;
 
-/**
- * @author  MySelf
- * @create  2018/9/22
- * @desc mtqq协议处理器
- **/
+
 @Slf4j
 public abstract class MqttHander extends SimpleChannelInboundHandler<MqttMessage> {
 

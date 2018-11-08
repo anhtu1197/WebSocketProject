@@ -22,12 +22,7 @@ import org.springframework.stereotype.Component;
 import java.io.FileOutputStream;
 
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 11:01 2018\8\14 0014
- */
+
 @Component
 @Qualifier("textWebSocketFrameHandler")
 @ChannelHandler.Sharable
@@ -47,19 +42,19 @@ public class TextWebSocketFrameHandler extends SimpleChannelInboundHandler<Objec
                                 Object msg) throws Exception {
         if(msg instanceof TextWebSocketFrame){
             textWebSocketFrame(ctx, (TextWebSocketFrame) msg);
-        }else if(msg instanceof WebSocketFrame){ //websocket帧类型 已连接
+        }else if(msg instanceof WebSocketFrame){ //khi đã có kế nối
             handleWebSocketFrame(ctx, (WebSocketFrame) msg);
         }
     }
 
     private void handleWebSocketFrame(ChannelHandlerContext ctx, WebSocketFrame frame) {
         if(frame instanceof BinaryWebSocketFrame){
-            //返回客户端
+            //Trả về client
             BinaryWebSocketFrame imgBack= (BinaryWebSocketFrame) frame.copy();
             for (Channel channel : channels){
                 channel.writeAndFlush(imgBack.retain());
             }
-            //保存服务器
+            //Lưu tại server
             BinaryWebSocketFrame img= (BinaryWebSocketFrame) frame;
             ByteBuf byteBuf=img.content();
             try {
@@ -79,26 +74,26 @@ public class TextWebSocketFrameHandler extends SimpleChannelInboundHandler<Objec
         if (rMsg.equals("")){
             return;
         }
-        //用户登录判断
+        //Xử lý login
         if (redisTemplate.check(incoming.id(),rName)){
-            //临时存储聊天数据
+            //Lưu trữ tạm thời nội dung chat
             cacheTemplate.save(rName,rMsg);
-            //存储随机链接ID与对应登录用户名
+            //Lưu trữ id ngẫu nhiên ứng với username
             redisTemplate.save(incoming.id(),rName);
-            //存储登录用户名与链接实例，方便API调用链接实例
+            //Lưu trữ username với API
             redisTemplate.saveChannel(rName,incoming);
         }else{
-            incoming.writeAndFlush(new TextWebSocketFrame("存在二次登陆，系统已为你自动断开本次链接"));
+            incoming.writeAndFlush(new TextWebSocketFrame("Đã có kết nối thứ 2, hệ thống sẽ tự động ngắt kết nối"));
             channels.remove(ctx.channel());
             ctx.close();
             return;
         }
         for (Channel channel : channels) {
-            //将当前每个聊天内容进行存储
+            //Lưu trữ cuộc trò chuyện hiện tại
             if (channel != incoming){
-                channel.writeAndFlush(new TextWebSocketFrame( "[" + rName + "]" + rMsg));
+                channel.writeAndFlush(new TextWebSocketFrame( "[" + rName + "] " + rMsg));
             } else {
-                channel.writeAndFlush(new TextWebSocketFrame(rMsg + "[" + rName + "]" ));
+                channel.writeAndFlush(new TextWebSocketFrame(rMsg + " [" + rName + "]" ));
             }
         }
     }
@@ -111,30 +106,30 @@ public class TextWebSocketFrameHandler extends SimpleChannelInboundHandler<Objec
 
     @Override
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
-        //删除存储池对应实例
+        //Xóa kết nối
         String name = (String) redisTemplate.getName(ctx.channel().id());
         redisTemplate.deleteChannel(name);
-        //删除默认存储对应关系
+        //Xóa kết nối mặc định
         redisTemplate.delete(ctx.channel().id());
         channels.remove(ctx.channel());
     }
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        //在线
+        //Trạng thái online
     }
 
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
-        //掉线
+        //Drop
         msgAsyncTesk.saveChatMsgTask();
     }
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause)
             throws Exception {
-        //异常
+        //Error
         cause.printStackTrace();
         ctx.close();
     }

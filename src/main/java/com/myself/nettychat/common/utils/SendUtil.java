@@ -7,12 +7,7 @@ import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 
 import java.nio.charset.Charset;
 
-/**
- * @Author:UncleCatMySelf
- * @Email：zhupeijie_java@126.com
- * @QQ:1341933031
- * @Date:Created in 19:32 2018\9\20 0020
- */
+
 public class SendUtil {
 
     public boolean send(Integer item, Channel channel, String channelID, String type){
