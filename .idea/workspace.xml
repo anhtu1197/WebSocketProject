@@ -2,394 +2,144 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="455ff0ab-de96-4cc0-aaea-a51594b2e570" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_26_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_28_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InChat.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettychat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettychat.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/bootstrap.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/coder/coder.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/handler/handler.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/enums/enums.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/exception/exception.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/ip/ip.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/pool.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/utils.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/zookeeper/zookeeper.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/config.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/constont.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/form/form.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/repository/repository.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/service/impl/impl.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/service/service.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/store/store.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/task/task.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/tcptest/tcptest.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/vo/vo.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/DefaultAutoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/NettychatApplication$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/NettychatApplication$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/NettychatApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/auto/InitServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/auto/ServerAutoConfigure.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/AbstractBootstrapServer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/AbstractBootstrapServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/BaseApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/BaseAuthService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/BootstrapServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/ChannelService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/MqttChannel$MqttChannelBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/MqttChannel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/RetainMessage$RetainMessageBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/RetainMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/SendMqttMessage$SendMqttMessageBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/SendMqttMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/SessionMessage$SessionMessageBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/SessionMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/WillMeaasge$WillMeaasgeBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/WillMeaasge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/AbstractChannelService$TopicFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/AbstractChannelService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/ClientSessionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/MqttChannelService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/MqttChannelService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/MqttHandlerService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/MqttHandlerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/PublishApiSevice$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/PublishApiSevice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/WillService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/cache/CacheMap$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/cache/CacheMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/coder/ByteBufToWebSocketFrameEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/coder/WebSocketFrameToByteBufDecoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/handler/DefaultMqttHandler$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/handler/DefaultMqttHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/scan/SacnScheduled$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/scan/SacnScheduled.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/scan/ScanRunnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/ConfirmStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/ProtocolEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/QosStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/SessionStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/SubStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/exception/ConnectionException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/exception/NoFindHandlerException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/ip/IpUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/mqtts/ClientMqttHandlerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/mqtts/MqttHander.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/mqtts/MqttHandlerIntf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/mqtts/ServerMqttHandlerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/pool/DefaultThreadFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/pool/ExecutorQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/pool/Scheduled.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/pool/StandardThreadExecutor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/properties/InitNetty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/ssl/SecureSocketKeyStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/ssl/SecureSocketSslContextFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/ssl/SecureSokcetTrustManagerFactory$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/ssl/SecureSokcetTrustManagerFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/ssl/StreamReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/ssl/X509CertTool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/ByteBufUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/CRC16MySelf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/CallBackMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/Const$StateEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/Const.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/CookieUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/DataResction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/DataValida.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/IdWorker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/MessageId.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/RandomNameUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/RemotingUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/ResultVOUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/SendUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/SpringBeanUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/StringUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/ZkStateListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/ZkUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/ZkUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/NettyConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/NettyTcpChannelInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/NettyTcpConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/NettyWebSocketChannelInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TextWebSocketFrameHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/constont/CookieConstant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/constont/H5Constant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/constont/LikeRedisTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/constont/LikeSomeCacheTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/controller/NCBackController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/controller/NcChangeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/controller/NcChatController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/controller/NcLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/dataobject/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/dataobject/UserMsg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/form/LoginForm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/repository/UserMsgRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/store/TokenStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/task/MsgAsyncTesk.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/task/ScheduledPool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/tcptest/CRC16myself.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/tcptest/TCPTestClient$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/tcptest/TCPTestClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/vo/ResultVo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/securesocket.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/allchat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/chat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/newChat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/registered.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/image/logoSmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/image/nuandao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/chat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/newChat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/registered.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/chat/allchat.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/chat/chat.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/common/floor.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/common/header.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/find/find.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/h5.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/home/home.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/login/login.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/login/loginSui.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/me/me.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/myself/nettychat/NettychatApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/nettychat.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/nettychat.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/DefaultAutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/DefaultAutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/my-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettychat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nettychat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/NettychatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/NettychatApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/auto/InitServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/auto/InitServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/auto/ServerAutoConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/auto/ServerAutoConfigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/AbstractBootstrapServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/AbstractBootstrapServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/BaseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/BaseApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/BaseAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/BaseAuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/BootstrapServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/BootstrapServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/ChannelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/ChannelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/NettyBootstrapServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/NettyBootstrapServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/bean/MqttChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/bean/MqttChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/bean/SendMqttMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/bean/SendMqttMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/bean/SessionMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/bean/SessionMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/bean/WillMeaasge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/bean/WillMeaasge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/AbstractChannelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/AbstractChannelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/ClientSessionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/ClientSessionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/MqttChannelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/MqttChannelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/MqttHandlerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/MqttHandlerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/PublishApiSevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/PublishApiSevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/WillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/WillService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/cache/CacheMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/channel/cache/CacheMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/coder/ByteBufToWebSocketFrameEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/coder/ByteBufToWebSocketFrameEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/coder/WebSocketFrameToByteBufDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/coder/WebSocketFrameToByteBufDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/handler/DefaultMqttHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/bootstrap/handler/DefaultMqttHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/enums/ConfirmStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/enums/ConfirmStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/enums/ProtocolEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/enums/ProtocolEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/enums/QosStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/enums/QosStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/enums/SessionStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/enums/SessionStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/enums/SubStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/enums/SubStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/exception/ConnectionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/exception/ConnectionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/exception/NoFindHandlerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/exception/NoFindHandlerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/ip/IpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/ip/IpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/mqtts/ClientMqttHandlerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/mqtts/ClientMqttHandlerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/mqtts/MqttHander.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/mqtts/MqttHander.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/mqtts/MqttHandlerIntf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/mqtts/MqttHandlerIntf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/mqtts/ServerMqttHandlerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/mqtts/ServerMqttHandlerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/DefaultThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/DefaultThreadFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/ExecutorQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/ExecutorQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/Scheduled.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/Scheduled.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/StandardThreadExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/StandardThreadExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/properties/InitNetty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/properties/InitNetty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/ByteBufUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/ByteBufUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/CRC16MySelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/CRC16MySelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/CallBackMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/CallBackMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/CookieUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/DataResction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/DataResction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/DataValida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/DataValida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/IdWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/MessageId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/MessageId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/RandomNameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/RandomNameUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/ResultVOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/ResultVOUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/SendUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/SendUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/SpringBeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/SpringBeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/zookeeper/ZkStateListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/zookeeper/ZkStateListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/zookeeper/ZkUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/zookeeper/ZkUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/zookeeper/testZk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/zookeeper/testZk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyTcpChannelInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyTcpChannelInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyTcpConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyTcpConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyWebSocketChannelInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyWebSocketChannelInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TCPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TCPServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TCPServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TextWebSocketFrameHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TextWebSocketFrameHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/CookieConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/CookieConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/H5Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/H5Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/LikeRedisTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/LikeRedisTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/LikeSomeCacheTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/LikeSomeCacheTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NCBackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NCBackController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcChangeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcChangeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcChatController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/dataobject/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/dataobject/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/dataobject/UserMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/dataobject/UserMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/form/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/form/LoginForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/repository/UserMsgRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/repository/UserMsgRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/store/TokenStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/store/TokenStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/task/MsgAsyncTesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/task/MsgAsyncTesk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/task/ScheduledPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/task/ScheduledPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/tcptest/CRC16myself.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/tcptest/CRC16myself.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/tcptest/TCPTestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/tcptest/TCPTestClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/vo/ResultVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myself/nettychat/vo/ResultVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/allchat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/allchat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/newChat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/newChat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/logoBig.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/logoSmall.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/image/logoSmall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/newChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/newChat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/registered.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/registered.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/chat/allchat.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/chat/allchat.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home/home.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home/home.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/DefaultAutoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/DefaultAutoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/auto/InitServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/auto/InitServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/auto/ServerAutoConfigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/auto/ServerAutoConfigure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/AbstractBootstrapServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/AbstractBootstrapServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/AbstractBootstrapServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/AbstractBootstrapServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/BaseApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/BaseApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/NettyBootstrapServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/MqttChannel$MqttChannelBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/MqttChannel$MqttChannelBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/MqttChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/MqttChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/SendMqttMessage$SendMqttMessageBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/SendMqttMessage$SendMqttMessageBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/SendMqttMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/SendMqttMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/SessionMessage$SessionMessageBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/SessionMessage$SessionMessageBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/SessionMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/SessionMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/WillMeaasge$WillMeaasgeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/WillMeaasge$WillMeaasgeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/WillMeaasge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/bean/WillMeaasge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/AbstractChannelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/AbstractChannelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/ClientSessionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/ClientSessionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/MqttChannelService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/MqttChannelService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/MqttChannelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/MqttChannelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/MqttHandlerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/MqttHandlerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/PublishApiSevice$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/PublishApiSevice$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/PublishApiSevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/PublishApiSevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/cache/CacheMap$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/cache/CacheMap$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/cache/CacheMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/channel/cache/CacheMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/coder/ByteBufToWebSocketFrameEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/coder/ByteBufToWebSocketFrameEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/coder/WebSocketFrameToByteBufDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/coder/WebSocketFrameToByteBufDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/handler/DefaultMqttHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/handler/DefaultMqttHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/handler/DefaultMqttHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/bootstrap/handler/DefaultMqttHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/ConfirmStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/ConfirmStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/ProtocolEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/ProtocolEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/QosStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/QosStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/SessionStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/SessionStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/SubStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/enums/SubStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/exception/ConnectionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/exception/ConnectionException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/exception/NoFindHandlerException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/exception/NoFindHandlerException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/ip/IpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/ip/IpUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/mqtts/ClientMqttHandlerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/mqtts/ClientMqttHandlerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/mqtts/MqttHander.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/mqtts/MqttHander.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/mqtts/ServerMqttHandlerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/mqtts/ServerMqttHandlerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/pool/DefaultThreadFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/pool/DefaultThreadFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/pool/ExecutorQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/pool/ExecutorQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/pool/StandardThreadExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/pool/StandardThreadExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/properties/InitNetty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/properties/InitNetty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/ByteBufUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/ByteBufUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/CRC16MySelf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/CRC16MySelf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/CallBackMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/CallBackMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/Const$StateEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/Const$StateEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/Const.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/CookieUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/CookieUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/DataResction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/DataResction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/DataValida.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/DataValida.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/IdWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/IdWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/MessageId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/MessageId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/RandomNameUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/RandomNameUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/ResultVOUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/ResultVOUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/SendUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/SendUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/SpringBeanUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/SpringBeanUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/utils/StringUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/ZkStateListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/ZkStateListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/ZkUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/ZkUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/ZkUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/ZkUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/common/zookeeper/testZk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/NettyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/NettyConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/NettyTcpChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/NettyTcpChannelInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/NettyTcpConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/NettyTcpConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/NettyWebSocketChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/NettyWebSocketChannelInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TCPServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TextWebSocketFrameHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/config/TextWebSocketFrameHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/constont/CookieConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/constont/CookieConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/constont/H5Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/constont/H5Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/constont/LikeRedisTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/constont/LikeRedisTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/constont/LikeSomeCacheTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/constont/LikeSomeCacheTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/controller/NCBackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/controller/NCBackController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/controller/NcChangeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/controller/NcChangeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/controller/NcChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/controller/NcChatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/controller/NcLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/controller/NcLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/dataobject/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/dataobject/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/dataobject/UserMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/dataobject/UserMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/form/LoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/form/LoginForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/store/TokenStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/store/TokenStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/task/MsgAsyncTesk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/task/MsgAsyncTesk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/task/ScheduledPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/task/ScheduledPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/tcptest/CRC16myself.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/tcptest/CRC16myself.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/tcptest/TCPTestClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/tcptest/TCPTestClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/tcptest/TCPTestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/tcptest/TCPTestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myself/nettychat/vo/ResultVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myself/nettychat/vo/ResultVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/allchat.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/allchat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/newChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/newChat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/registered.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/registered.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/chat/allchat.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/chat/allchat.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home/home.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/home/home.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -398,6 +148,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -415,108 +168,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/store/TokenStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MsgAsyncTesk.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/task/MsgAsyncTesk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScheduledPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/task/ScheduledPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CRC16myself.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/tcptest/CRC16myself.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TCPTestClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/tcptest/TCPTestClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/vo/ResultVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultAutoService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/DefaultAutoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NettychatApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NettychatApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/NettychatApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/welcome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-page.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/my-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allchat.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/allchat.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home/home.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>title</find>
       <find>tất cả</find>
       <find>gửi</find>
-      <find>append</find>
       <find>content</find>
       <find>right</find>
       <find>msgRight</find>
-      <find>chat</find>
       <find>msgleft</find>
       <find>ddaw</find>
       <find>đăng ký</find>
@@ -524,9 +238,18 @@
       <find>history</find>
       <find>msglef</find>
       <find>:</find>
-      <find>his</find>
       <find>gu</find>
       <find>//.*</find>
+      <find>img</find>
+      <find>irand</find>
+      <find>idran</find>
+      <find>config</find>
+      <find>chat</find>
+      <find>append</find>
+      <find>his</find>
+      <find>height</find>
+      <find>thoong tin</find>
+      <find>thoong</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -544,17 +267,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/mqtts/ServerMqttHandlerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/DefaultThreadFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/ExecutorQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/Scheduled.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/pool/StandardThreadExecutor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/properties/InitNetty.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/ByteBufUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/CallBackMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/Const.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/CookieUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/CRC16MySelf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/DataResction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/DataValida.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/IdWorker.java" />
@@ -572,15 +284,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyTcpConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyWebSocketChannelInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TCPServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TCPServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/CookieConstant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/H5Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/LikeRedisTemplate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/LikeSomeCacheTemplate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NCBackController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcChangeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcChatController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcLoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/dataobject/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/dataobject/UserMsg.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/form/LoginForm.java" />
@@ -588,13 +294,30 @@
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/store/TokenStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/task/MsgAsyncTesk.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/task/ScheduledPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/tcptest/CRC16myself.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/tcptest/TCPTestClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/vo/ResultVo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/DefaultAutoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/store/TokenStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcChatController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcChangeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/registered.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TCPServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TextWebSocketFrameHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/newChat.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/chat/allchat.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcLoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/H5Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/NettychatApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/welcome.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NCBackController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/vo/ResultVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/OnlineController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/allchat.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/home/home.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/my-page.html" />
       </list>
     </option>
   </component>
@@ -630,9 +353,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -643,16 +366,6 @@
             <path>
               <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
               <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="h5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -675,153 +388,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="scan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="ip" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="mqtts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="pool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
@@ -839,89 +405,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="constont" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="dataobject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InChat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nettychat" type="462c0819:PsiDirectoryNode" />
-              <item name="tcptest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
@@ -963,7 +447,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
@@ -971,8 +455,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettychat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -981,13 +491,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/myself/nettychat/tcptest" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1083,12 +594,13 @@
       <workItem from="1541645984970" duration="2883000" />
       <workItem from="1541652280025" duration="469000" />
       <workItem from="1541661294876" duration="3997000" />
-      <workItem from="1541666132543" duration="1124000" />
+      <workItem from="1541666132543" duration="15044000" />
+      <workItem from="1541722396514" duration="4054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10134000" />
+    <option name="totallyTimeSpent" value="28108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1107,15 +619,17 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49924585" weight="0.5114379" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49621785" weight="0.42156863" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49621785" weight="0.28921568" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26626325" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2700454" />
+      <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32980332" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -1123,7 +637,6 @@
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49924585" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -1175,130 +688,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/ssl/SecureSokcetTrustManagerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/ssl/StreamReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/ssl/X509CertTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/ByteBufUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/CallBackMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/CookieUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/CRC16MySelf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/DataResction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/DataValida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/IdWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/MessageId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/RandomNameUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/RemotingUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2091">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/ResultVOUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/SendUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/common/utils/SpringBeanUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1313,12 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1041">
           <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
-          <folding>
-            <element signature="e#2193#2194#0" expanded="true" />
-            <element signature="e#2235#2236#0" expanded="true" />
-            <element signature="e#3338#3339#0" expanded="true" />
-            <element signature="e#3416#3417#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1336,66 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyTcpChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyTcpConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyWebSocketChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TCPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TCPServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TextWebSocketFrameHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/CookieConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/H5Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1413,48 +744,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NCBackController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcChangeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcChatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="e#1615#1616#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="e#1782#1783#0" expanded="true" />
-            <element signature="e#1843#1844#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/dataobject/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/dataobject/UserMsg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
@@ -1482,10 +772,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/store/TokenStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="92">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -1496,10 +786,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/store/TokenStore.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -1531,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/vo/ResultVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/DefaultAutoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1545,10 +828,242 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/chat.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcChangeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/registered.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/dataobject/UserMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/chat/chat.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyTcpChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/newChat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TCPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyTcpConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TextWebSocketFrameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="96" column="13" lean-forward="true" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/TCPServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="95" selection-start-line="38" selection-start-column="95" selection-end-line="38" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/config/NettyWebSocketChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE.jar!/org/springframework/web/servlet/ModelAndView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NcLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/constont/H5Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/chat/allchat.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/vo/ResultVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/header.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/floor.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="37" lean-forward="true" selection-start-line="117" selection-start-column="37" selection-end-line="117" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/OnlineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/controller/NCBackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/nettychat/NettychatApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/allchat.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home/home.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/my-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
         </state>
       </provider>
     </entry>

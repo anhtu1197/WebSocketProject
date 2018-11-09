@@ -28,29 +28,18 @@ import java.util.UUID;
 @Controller
 @RequestMapping("/admin")
 public class NcLoginController extends NcChangeController {
-
     @Autowired
     private UserService userService;
     @Autowired
     private UserMsgRepository userMsgRepository;
-
-
-
     @GetMapping("/loginsui")
     public ModelAndView loginSui(Map<String,Object> map){
         return new ModelAndView(H5Constant.LOGIN_SUI);
     }
-
-    /**
-     * 注册页面
-     * @return
-     */
     @GetMapping("/regis")
     public ModelAndView register(){
         return new ModelAndView(H5Constant.LOGIN_SUI);
     }
-
-
     @PostMapping("/toRegister")
     public ModelAndView toRegister(@Valid LoginForm form, BindingResult bindingResult , HttpServletResponse response,
                                    Map<String, Object> map){
@@ -61,7 +50,7 @@ public class NcLoginController extends NcChangeController {
         List<User> userList = userService.findAll();
         for (User item:userList){
             if (item.getUserName().equals(form.getFUserName())){
-                map.put("msg","用户名已存在，请重新填写唯一用户名");
+                map.put("msg","Tài khoản đã bị trùng");
                 return new ModelAndView(H5Constant.LOGIN_SUI,map);
             }
         }
@@ -72,7 +61,6 @@ public class NcLoginController extends NcChangeController {
         map.put("passWord",user.getPassWord());
         return new ModelAndView(H5Constant.LOGIN_SUI,map);
     }
-
     @PostMapping("/toLogin")
     public ModelAndView toLogin(@RequestParam(value = "page",defaultValue = "1") Integer page,
                                 @RequestParam(value = "size",defaultValue = "10") Integer size,
@@ -85,29 +73,16 @@ public class NcLoginController extends NcChangeController {
         try {
             User user = userService.findByUserName(form.getFUserName());
             if (user.getPassWord().equals(form.getFPassWord())){
-                
                 String token = UUID.randomUUID().toString();
-                
                 TokenStore.add(token,user.getId());
-                
                 CookieUtil.set(response, CookieConstant.TOKEN,token,CookieConstant.EXPIRE);
-
-
-
-
-
-
-
-
-
-
                 return new ModelAndView(H5Constant.HOME);
             }else{
-                map.put("msg","密码错误");
+                map.put("msg","Erorr");
                 return new ModelAndView(H5Constant.LOGIN_SUI,map);
             }
         }catch (Exception e){
-            map.put("msg","用户不存在");
+            map.put("msg","Error");
             return new ModelAndView(H5Constant.LOGIN_SUI,map);
         }
     }

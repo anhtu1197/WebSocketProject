@@ -3,13 +3,13 @@ var register2 = $('.register_top').children().last();
 register.click(function () {
     $(register).css('color', ' #303030');
     register2.css('color', '#999');
-    $('.btn1').val('登陆');
+    $('.btn1').val('Kết nối thành công');
     $('form').attr("action", "/susu/admin/toLogin");
 });
 register2.click(function () {
     $(register2).css('color', ' #303030');
     register.css('color', '#999');
-    $('.btn1').val('注册');
+    $('.btn1').val('Kết nối thành công');
     $('form').attr("action", "/susu/admin/toRegister");
 });
 $('.btn3').click(function () {

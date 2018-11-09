@@ -13,7 +13,7 @@ function generateMixed(n) {
     }
     return res;
 }
-
+//gửi ảnh
 if(window.WebSocket) {
 	socket = new WebSocket("ws://localhost:8090/ws");
 	socket.onmessage = function(event) {
@@ -22,26 +22,43 @@ if(window.WebSocket) {
         if(msg instanceof Blob){
             console.log("blobs");
             var idran = generateMixed(3);
-            var ta = "<div class='msgCente'><img id='"+idran+"' src='' class='chatimg'></div>";
-            $('.chat').append(ta);
+            // ta = "<div class=\"speech-bubble-ds \">" +
+            // "<img id='\"+idran+\"' src='' class='chatimg'>"
+            // + "</div>";
+            var ta = "<div class='msgCente speech-bubble-ds'><img id='"+idran+"' src='' class='chatimg'></div>";
+            $('.his').append(ta);
             //var previewImg = document.querySelector('img');
             var previewImg = document.getElementById(idran);
 
             var reader = new FileReader();
-            // 监听reader对象的的onload事件，当图片加载完成时，把base64编码賦值给预览图片
             reader.addEventListener("load", function () {
                 previewImg.src = reader.result;
             }, false);
-            // 调用reader.readAsDataURL()方法，把图片转成base64
             reader.readAsDataURL(msg);
         }
-        if(msg.substring(0, 1) == ' [') {
-            var ta = "<div class='msgLeft'><span>"+event.data+"</span></div>";
-            $('.chat').append(ta);
-        } else {
-            var ta = "<div class='msgLeft'><span>"+event.data+"</span></div>";
-            $('.chat').append(ta);
-        }
+        var data = event.data;
+        data  = data.split("-")
+        var username = data[1];
+        var msg = data[0];
+        var showingMess = "<div class=\"speech-bubble-ds \" >" +
+                                "<p><strong>" +username + "</strong></p>" +
+                                "<p>" + msg+ "</p>"
+                                + "<div class=\"speech-bubble-ds-arrow\"></div>";
+        $('.his').append(showingMess);
+
+
+        // if(msg.substring(0, 1) == '[') {
+        //      msg = event.data;
+        //     var ta = "<div class='msgLeft'><span>"+event.data+"</span></div>";
+        //    // $('.chat').append(ta);
+        //     //alert('Data' + msg);
+        // } else {
+        //     username = event.data;
+        //     alert('Username =' + username);
+        //     var ta = "<div class='msgLeft'><span>"+event.data+"</span></div>";
+        //    // $('.chat').append(ta);
+        //     //(ta);
+        // }
 	};
 	socket.onopen = function(event) {
         $('.tips').html('Kết nối đã được mở！');
@@ -113,13 +130,10 @@ function sendFile(){
     if(!thum) return;
     console.log(thum);
     var reader = new FileReader();
-    //以二进制形式读取文件
     reader.readAsArrayBuffer(thum);
-    //文件读取完毕后该函数响应
     reader.onload = function loaded(evt) {
         console.log(evt);
         var blob = evt.target.result;
-        //发送二进制表示的文件
         socket.send(blob);
         console.log(blob);
 
@@ -155,7 +169,6 @@ $(window).on('mousemove', function(e) {
         }
         thumb.css("top", pos + "px");
 
-        // 计算thumb所在的位置占父亲的%
         var percentage = thumb.offset().top / (scrollBar.height() - thumb.height());
         var top = (chat.height() - chat.parent().height()) * percentage;
         chat.css("top", -top + "px");

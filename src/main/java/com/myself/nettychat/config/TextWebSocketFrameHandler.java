@@ -91,9 +91,9 @@ public class TextWebSocketFrameHandler extends SimpleChannelInboundHandler<Objec
         for (Channel channel : channels) {
             //Lưu trữ cuộc trò chuyện hiện tại
             if (channel != incoming){
-                channel.writeAndFlush(new TextWebSocketFrame( "[" + rName + "] " + rMsg));
+                channel.writeAndFlush(new TextWebSocketFrame(  rMsg + "-" + rName));
             } else {
-                channel.writeAndFlush(new TextWebSocketFrame(rMsg + " [" + rName + "]" ));
+                channel.writeAndFlush(new TextWebSocketFrame(rMsg + "-" + rName ));
             }
         }
     }

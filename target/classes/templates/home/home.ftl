@@ -6,6 +6,7 @@
         margin-top:-20px;
     }
 </style>
+
 <body>
 <div class="page">
     <header class="bar bar-nav">
@@ -14,11 +15,11 @@
     <nav class="bar bar-tab">
         <a class="tab-item active" href="#">
             <span class="icon icon-message"></span>
-            <span class="tab-label">Thông tin</span>
+            <span class="tab-label">Chatting</span>
         </a>
-        <a class="tab-item" href="/susu/su/chat">
+        <a class="tab-item" href="/susu/">
             <span class="icon icon-friends"></span>
-            <span class="tab-label">Danh bạ</span>
+            <span class="tab-label">Online</span>
         </a>
         <a class="tab-item" href="/susu/su/find">
             <span class="icon icon-browser"></span>
@@ -32,18 +33,16 @@
     <div class="content">
         <form role="form" id="rec" hidden>
         </form>
-        <!-- 添加 class infinite-scroll 和 data-distance  向下无限滚动可不加infinite-scroll-bottom类，这里加上是为了和下面的向上无限滚动区分-->
         <#--<div class="content infinite-scroll infinite-scroll-bottom" data-distance="100">-->
             <div class="list-block">
                 <ul class="list-container">
                     <li class="item-content" onclick="allchat()">
                         <div class="item-inner">
-                            <img style="height: 70px;width: 70px;" src="/susu/image/logoSmall.png"><div class="item-title">chat với tất cả người dùng</div>
+                            <img style="height: 70px;width: 70px;" src="/susu/image/logoSmall.png"><div class="item-title">Chat với tất cả người dùng</div>
                         </div>
                     </li>
                 </ul>
             </div>
-            <#--<!-- 加载提示符 &ndash;&gt;-->
             <#--<div class="infinite-scroll-preloader">-->
                 <#--<div class="preloader"></div>-->
             <#--</div>-->

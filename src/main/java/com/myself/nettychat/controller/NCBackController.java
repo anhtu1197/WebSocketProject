@@ -21,7 +21,10 @@ public class NCBackController {
     public ResultVo getSize(){
         return ResultVOUtil.success(redisTemplate.getSize());
     }
-
+    @RequestMapping("/hello")
+    public String welcome() {
+        return "welcome";
+    }
 
     @GetMapping("/online")
     public ResultVo getOnline(){

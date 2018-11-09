@@ -9,7 +9,7 @@ public interface H5Constant {
 
     
     String HOME = "home/home";
-    
+    String ONLINE = "home/online";
     String INDEX = "index";
     
     

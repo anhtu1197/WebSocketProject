@@ -35,11 +35,17 @@
 <script src='/susu/js/newChat.js'></script>
 <#include "../common/floor.ftl">
 <script>
-    var msg = '\n';
+    var msg = '';
     <#list userMsgList as userMsg>
-    msg = msg +'<div class="conversation__msg cf ">'+ '${userMsg.name!''}'+': '+'${userMsg.msg!''}' +'</div>';
+    msg = msg +'<div class="speech-bubble-ds ">' +
+            ' <p><strong>'+ '${userMsg.name!''}'+'</strong></p>' +
+            '<p>'+'${userMsg.msg!''}' +'</p></div>' +
+            '<div class="speech-bubble-ds-arrow"></div>'
+            ;
+
     </#list>
-    msg = msg+'<div class="his">---Toàn bộ lịch sử Chat ---</div>';
+    msg = msg+'<div class="continue msgCente">--- Toàn bộ lịch sử Chat ---</div>';
 </script>
+<div class = "continue"></div>
 </body>
 </html>

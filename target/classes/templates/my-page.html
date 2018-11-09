@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ứng dụng chat</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/susu/image/logoSmall.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="http://g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="http://g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+
+</head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+<style type="text/css">
+    .infinite-scroll-preloader {
+        margin-top:-20px;
+    }
+</style>
+
+<body>
+<!--<h3>Ứng dụng chat</h3>-->
+
+
+<header class="bar bar-nav">
+    <h1 class="title">Ứng dụng chat</h1>
+</header>
+<nav class="bar bar-tab">
+    <a class="tab-item active" href="#">
+        <span class="icon icon-message"></span>
+        <span class="tab-label">Thông tin</span>
+    </a>
+    <a class="tab-item" href="/susu/">
+        <span class="icon icon-friends"></span>
+        <span class="tab-label">Online</span>
+    </a>
+    <a class="tab-item" href="/susu/su/find">
+        <span class="icon icon-browser"></span>
+        <span class="tab-label">Tìm kiếm</span>
+    </a>
+    <a class="tab-item" href="/susu/su/me">
+        <span class="icon icon-me"></span>
+        <span class="tab-label">Trang cá nhân</span>
+    </a>
+</nav>
+<div class="content">
+    <form role="form" id="rec" hidden>
+    </form>
+    <div th:text=" 'Số người online: ' + ${onlineNum}"/>
+    <div th:object="${onlinePeo}" id="userTable" border="1" class="table-responsive">
+        <tr class ="user" th:each="user :${onlinePeo}">
+
+            <img src="https://cdn3.iconfinder.com/data/icons/flatastic-10-2/256/trafficlight_green-512.png" alt="Oline face" height="17" width="17">
+            <td  th:text="${user}"></td> <br>
+        </tr>
+    </div>
+</div>
+
+</div>
+</div>
+
+
+<script type='text/javascript' src='http://g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='http://g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='http://g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+
+</body>
+</html>

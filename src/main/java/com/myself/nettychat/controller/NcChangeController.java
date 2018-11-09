@@ -33,12 +33,12 @@ public class NcChangeController {
         HttpServletRequest request = attributes.getRequest();
         Cookie cookie = CookieUtil.get(request, CookieConstant.TOKEN);
         if (cookie == null){
-            map.put("msg","cookie中不存在token");
+            map.put("msg","cookietoken");
             return new ModelAndView(H5Constant.LOGIN_SUI,map);
         }
         Integer userId = (Integer) TokenStore.get(cookie.getValue());
         if (userId == null){
-            map.put("msg","用户信息不存在");
+            map.put("msg","");
             return new ModelAndView(H5Constant.LOGIN_SUI,map);
         }
         User user = userService.findOne(userId);

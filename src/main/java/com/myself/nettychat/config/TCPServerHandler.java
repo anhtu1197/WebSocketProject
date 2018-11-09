@@ -100,15 +100,10 @@ public class TCPServerHandler extends ChannelInboundHandlerAdapter {
     }
 
 
-    /**
-     * 客户端执行开锁测试执行方法
-     * @param ctx
-     * @param realData
-     * @param ChannelID
-     */
+
     private void futureBYTesting(ChannelHandlerContext ctx, String realData, String ChannelID) {
         Set<String> ids = Const.getIdList();
-        System.out.println("测试广播事件执行");
+        System.out.println("Kết nối thành công");
         for (String item : ids){
             SendUtil sendUtil = new SendUtil();
             Channel channel = Const.get(item);
@@ -124,23 +119,19 @@ public class TCPServerHandler extends ChannelInboundHandlerAdapter {
      * @param realData
      */
     private void futureByChlientResult(ChannelHandlerContext ctx, String realData,String ChannelID) {
-        //测试方法
+
         ScheduledFuture<?> future = ctx.channel().eventLoop().schedule(
                 new Runnable() {
                     @Override
                     public void run() {
-                        System.out.println("-------尝试执行SQL操作--------客户端执行结果");
+                        System.out.println("-------Kết nối DB thành công");
                     }
                 },0, TimeUnit.SECONDS);
         ctx.writeAndFlush(CallBackMessage.sendString(
                 CRC16MySelf.getAllString(ChannelID,Const.RESULT_TYPE,Const.SUCCESS)));
     }
 
-    /**
-     * 开关异常执行方法
-     * @param ctx
-     * @param realData
-     */
+
     private void futureByException(ChannelHandlerContext ctx,final String realData,final String ChannelID) {
         //测试方法
         ScheduledFuture<?> future = ctx.channel().eventLoop().schedule(
